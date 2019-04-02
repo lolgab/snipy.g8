@@ -1,5 +1,7 @@
 import scala.sys.process._
 
+name := "$name$"
+
 enablePlugins(ScalaNativePlugin)
 
 scalaVersion := "2.11.12"
